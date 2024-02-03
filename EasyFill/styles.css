@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #161c26;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    height: auto;
+    width: 30em;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #161c26;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    /* color: #333; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    /* color: #555; */
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    height: 2.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.fieldContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+#fieldsContainerForm {
+    display: flex;
+    flex-direction: column;
+}
+
+form#autofillForm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    padding: 2em;
+}
